@@ -5,6 +5,7 @@ def get_matrix(n, m, value):
         matrix.append(list_)
         for j in range(m):
             list_.append(value)
+            print(matrix)
     return matrix
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
